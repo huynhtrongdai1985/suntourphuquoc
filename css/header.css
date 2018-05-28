@@ -83,67 +83,6 @@
     font-size: 16px;
 }
 
-/*===NAV===*/
-.wrap-overlay{
-	display: none;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(0,0,0,0.4);
-}
-.side-nav{
-	height: 100%;
-    width: 85%;
-    position: fixed;
-    z-index: 10;
-    top: 0;
-    left: -100%;
-    background-color: #fff;
-    overflow-x: hidden;
-    transition: 0.5s;
-}
-.side-nav.open{
-	left: 0;
-}
-.fa-times-thin:before {
-	content: '\00d7';
-}
-.side-nav .list-nav{
-	padding: 0 20px;
-}
-.side-nav .list-nav li{
-	display: flex;
-	flex-direction: column;
-}
-.side-nav .list-nav li a{
-	color: #6f6f6e;
-	font-size: 16px;
-	padding: 4px 10px;
-}
-.list-nav li a {
-	color: #6f6f6e;
-}
-.list-nav li.active a{
-	color: #ef7d00;
-}
-.list-nav li a .icon{
-	margin-right: 5px;
-}
-.side-nav .close-sidebar{
-	padding: 0 20px;
-}
-.close-sidebar span{
-	font-size: 60px;
-	display: flex;
-    justify-content: flex-end;
-}
-.sub-list-nav{
-	padding-left: 20px;
-}
-
-
 /*===Customize Slick===*/
 .slick-prev{
 	left: 0;
@@ -201,6 +140,63 @@
 
 
 @media (max-width: 767px){
+
+	/*===NAV===*/
+	.wrap-overlay{
+		display: none;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0,0,0,0.4);
+	}
+	.side-nav{
+		height: 100%;
+	    width: 85%;
+	    position: fixed;
+	    z-index: 10;
+	    top: 0;
+	    left: -100%;
+	    background-color: #fff;
+	    overflow-x: hidden;
+	    transition: 0.5s;
+	}
+	.side-nav.open{
+		left: 0;
+	}
+	.fa-times-thin:before {
+		content: '\00d7';
+	}
+	.side-nav .list-nav li{
+		display: flex;
+		flex-direction: column;
+		border-bottom: 1px solid #d5d5d5;
+		padding-bottom: 10px;
+	}
+	.side-nav .list-nav li a{
+		color: #6f6f6e;
+		font-size: 16px;
+		padding: 4px 10px;
+	}
+	.list-nav li a {
+		color: #6f6f6e;
+	}
+	.list-nav li.active a{
+		color: #ef7d00;
+	}
+	.list-nav li a .icon{
+		margin-right: 5px;
+	}
+	.side-nav .close-sidebar{
+		padding: 0 20px;
+	}
+	.close-sidebar span{
+		font-size: 60px;
+		display: flex;
+	    justify-content: flex-end;
+	}
+
 	/*===Menu sp===*/
 	.nav-sp{
 		color: #3a3734;
