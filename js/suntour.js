@@ -150,5 +150,23 @@ $(document).ready(function(){
         $("#"+tab_id).addClass('current');
     });
 
+    /* Begin: Show item list choose */
+    $('[data-sub-list]').click(function(){
+        var self    = this;
+        var target  = $(self).data('sub-list');
+        var $other  = $('[data-sub-list="'+target+'"]');
+        if(target){
+            $other.each(function(index, el){
+                if(el !== self){
+                    $(el).siblings(target).slideUp();
+                    $(el).parent().find('.title-toggle-nav').removeClass('active');
+                }else{
+                    $(self).siblings(target).slideToggle();
+                    $(self).parent().find('.title-toggle-nav').toggleClass('active');
+                }
+            });
+        }
+    });
+    /* End: Show item list choose */
 
 });
