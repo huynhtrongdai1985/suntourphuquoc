@@ -14,6 +14,7 @@
 	background-color: #fff;
 	z-index: 9;
 	border-bottom: 1px solid #dedddd;
+	padding-bottom: 10px;
 }
 .box-top-header .col span{
 	color: #6f6f6e;
@@ -177,6 +178,28 @@
 	display: none;
 }
 
+@media (max-width: 360px){
+	.box-top-header .col span {
+	    font-size: 11px;
+	}
+	.box-top-header .col span.line{
+		font-size: 13px;
+	}
+	.box-top-header .col .fa {
+	    font-size: 14px;
+	}
+	.wrap-book-tour a {
+	    font-size: 14px;
+	}
+	.nav-sp{
+		margin-left: 15px;
+	}
+	.wrap-call-num .wrap-num .num a {
+	    font-size: 16px;
+	}
+}
+
+
 @media (max-width: 767px){
 	/*===Menu sp===*/
 	.nav-sp{
@@ -213,53 +236,6 @@
 		box-sizing: border-box;
 		margin-top: 20px;
 		border:  1px solid #307abe;
-	}
-}
-
-@media (max-width: 360px){
-	.box-top-header .col span {
-	    font-size: 11px;
-	}
-	.box-top-header .col span.line{
-		font-size: 13px;
-	}
-	.box-top-header .col .fa {
-	    font-size: 14px;
-	}
-	.wrap-book-tour a {
-	    font-size: 14px;
-	}
-	.nav-sp{
-		margin-left: 15px;
-	}
-	.wrap-call-num .wrap-num .num a {
-	    font-size: 16px;
-	}
-}
-
-@media (min-width: 768px) and (max-width: 1023px){
-	.navigation{
-		padding: 10px;
-		box-sizing: border-box;
-	}
-	.list-nav li a{
-		padding: 0;
-		font-size: 11px;
-	}
-	.wrap-book-tour{
-		padding: 10px;
-	}
-	.wrap-book-tour a{
-		font-size: 12px;
-	}
-	.wrap-call-num .wrap-num .num a{
-		font-size: 14px;
-	}
-	.top-header .item.pc{
-		display: none;
-	}
-	.col-left .list .item:first-child:after{
-		background-color: transparent !important;
 	}
 }
 
@@ -354,20 +330,56 @@
 	}
 
 }
+/*====iPad in portrait & landscape===*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
 
-@media (min-width: 1024px){
+}
 
-	.wrap-call-num .icon-call .circle{
-		width: 45px;
-		height: 45px;
-		font-size: 22px;
+/*====iPad in portrait===*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+	.navigation{
+		padding: 10px;
+		box-sizing: border-box;
 	}
-	.col-left .list .item:first-child,
-	.col-right .list .item:first-child{
-		margin-right: 20px;
+	.list-nav li a{
+		padding: 0 7px;
+    	font-size: 13px;
 	}
-	.col-left .list .item:first-child:after,
-	.col-right .list .item:first-child:after{
-		right: -11px;
+	.wrap-book-tour{
+		padding: 10px;
 	}
+	.wrap-book-tour a{
+		font-size: 12px;
+	}
+	.wrap-call-num .wrap-num .num a{
+		font-size: 14px;
+	}
+	.top-header .item.pc{
+		display: none;
+	}
+	.col-left .list .item:first-child:after{
+		background-color: transparent !important;
+	}
+	.item-nav.have-sub:after{
+		right: 1px;
+	}
+	.left-about .text-about{
+		font-size: 15px;
+	}
+	.list-slider-about .item-about .info-personal {
+	    font-size: 15px;
+	}
+}
+
+/*====iPad in landscape===*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
 }
