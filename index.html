@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>suntour phu quoc</title>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/core.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/suntour.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/top.css">
+	<link rel="stylesheet" href="css/footer.css">	
+</head>
+<body>
+	<div class="wrap-overlay"></div>
+	<div id="side-nav" class="side-nav">
+		<div class="close-sidebar">
+			<span class="closed"><i class="fal fa fa-times-thin"></i></span>
+		</div>
+		<div class="nav-content">
+			<ul class="list-nav flexbox flex-column">
+				<li class="item-nav active">
+					<a href="#"><span class="icon"><i class="fas fa fa-home"></i></span>Trang chủ</a>
+				</li>
+				<li class="item-nav">
+					<a href="#">Giới thiệu</a>
+				</li>
+				<li class="item-nav">
+					<a href="#">Dịch vụ</a>
+				</li>
+				<li class="item-nav">
+					<a href="#">Tin tức</a>
+				</li>
+				<li class="item-nav">
+					<a href="#">Tours</a>
+					<ul class="sub-list-nav">
+						<li class="sub-item-nav">
+							<a href="#">Tour mới nhất</a>
+						</li>
+						<li class="sub-item-nav">
+							<a href="#">Tour hot</a>
+						</li>
+						<li class="sub-item-nav">
+							<a href="#">Tour trọn gói</a>
+						</li>
+						<li class="sub-item-nav">
+							<a href="#">Tour riêng</a>
+						</li>
+					</ul>
+				</li>
+				<li class="item-nav">
+					<a href="#">Liên hệ</a>
+				</li>
+			</ul>
+		</div><!--end nav-->
+	</div>
+	<div class="wrapper">
+		<section class="wrap-section box-header">
+			<div class="top-header">
+				<div class="container">
+					<div class="row">
+						<div class="box-top-header flexbox justify-content-between">
+							<div class="col col-left flexbox">
+								<ul class="list flexbox align-items-center">
+									<li class="item">
+										<a href="mailto:info@suntourphuquoc.com">
+											<span class="email flexbox"><i class="fa fa-envelope"></i>info@suntourphuquoc.com</span>
+										</a>
+									</li>
+									<li class="item pc">
+										<span class="clock flexbox"><i class="fal fa fa-clock"></i>Mở cửa từ 8:00 - 17:00</span>
+									</li>
+								</ul>
+							</div>
+							<div class="col col-right flexbox">
+								<ul class="list flexbox">
+									<li class="item">
+										<a href="https://www.facebook.com/suntourphuquoc.com/" target="blank">
+											<span class="facebook flexbox"><i class="fa fa-facebook-square"></i><var class="text-social pc">Facebook.com/suntourphuquoc.com</var></span>
+										</a>
+									</li>
+									<li class="item">
+										<a href="#" target="blank">
+											<span class="instagram flexbox"><i class="fab fa fa-instagram"></i><var class="text-social pc">instagram</var></span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--end top-header-->
+			<div class="navigation">
+				<div class="container">
+					<div class="wrap-nav row flexbox align-items-center">
+						<div class="logo">
+							<a href="#"><img src="images/logo.svg" alt=""></a>
+						</div>
+						<div class="wrap-m-nav flexbox flex-row align-items-center">
+							<div class="nav-sp sp">
+								<span class="icon-menu">
+									<i class="far fa fa-bars"></i>
+								</span>
+							</div>
+							<div class="nav pc">
+								<ul class="list-nav flexbox">
+									<li class="item-nav active">
+										<a href="#"><span class="icon"><i class="fas fa fa-home"></i></span></a>
+									</li>
+									<li class="item-nav">
+										<a href="#">Giới thiệu</a>
+									</li>
+									<li class="item-nav">
+										<a href="#">Dịch vụ</a>
+									</li>
+									<li class="item-nav">
+										<a href="#">Tin tức</a>
+									</li>
+									<li class="item-nav have-sub">
+										<a href="#">Tours</a>
+										<ul class="sub-list-nav">
+											<li class="sub-item-nav">
+												<a href="#">Tour mới nhất</a>
+											</li>
+											<li class="sub-item-nav">
+												<a href="#">Tour hot</a>
+											</li>
+											<li class="sub-item-nav">
+												<a href="#">Tour trọn gói</a>
+											</li>
+											<li class="sub-item-nav">
+												<a href="#">Tour riêng</a>
+											</li>
+										</ul>
+									</li>
+									<li class="item-nav">
+										<a href="#">Liên hệ</a>
+									</li>
+								</ul>
+							</div><!--end nav-->
+							<div class="wrap-book-tour">
+								<a href="#">
+									<span>Book tour</span>
+								</a>
+							</div><!--end wrap-book-tour-->
+						</div>
+						
+						<div class="wrap-call-num flexbox">
+							<div class="icon-call">
+								<span class="circle flexbox align-items-center justify-content-center"><i class="fa fa-phone"></i></span>
+							</div>
+							<div class="wrap-num flexbox">
+								<p class="num"><a href="tel:0932 531 446">0932 531 446</a></p>
+								<p class="line-num sp">|</p>
+								<p class="num"><a href="tel:0939 144 114">0939 144 114</a></p>
+							</div>
+						</div><!--end wrap-call-num-->
+					</div>
+				</div>	
+			</div><!--end navigation-->
+		</section><!--end header-->
+
+		<section class="wrap-section box-banner">
+			<div class="banner">
+				<div class="slide-banner">
+					<ul class="list-banner">
+						<li class="item-banner">
+							<img class="sp" src="images/banner1-sp.jpg" alt="">
+							<img class="pc" src="images/banner1-pc.jpg" alt="">
+						</li>
+						<li class="item-banner">
+							<img class="sp" src="images/banner1-sp.jpg" alt="">
+							<img class="pc" src="images/banner1-pc.jpg" alt="">
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section><!--end slide top banner-->
+
+		<section class="wrap-section box-general tour-latest">
+			<div class="wrap-title flexbox justify-content-center">
+				<h2 class="title">
+					<span class="title-name"><var class="color-orange">Tour</var> Mới Nhất</span>
+				</h2>
+			</div><!--end wrap title-->
+			<div class="slider-tour-latest">
+				<div class="container">
+					<div class="row">
+						<ul class="list-tour-latest list-pro-general">
+							<li class="item-pro-general flexbox">
+								<div class="image relative">
+									<a href="#"><img src="images/img-tour-moi-01.jpg" alt=""></a>
+									<div class="label-latest">
+										<span class="arrow-bg">Mới</span>
+									</div>
+								</div>
+								<div class="box-ct-general box-ct-general-column">
+									<div class="group-sub-tt">
+										<h3 class="sub-tt-general"><a href="#">tour phú quốc</a></h3>
+										<p class="date">2 ngày 3 đêm</p>
+									</div>
+									<div class="info-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur pariatur ab saepe non veritatis quidem dolore eligendi dicta doloribus esse voluptatem cupiditate quis</div>
+									<div class="box-number box-number-center flexbox">
+										<a class="phone" href="tel:0932 531 446"><span class="fa fa-phone"></span>0932 531 446</a>
+									</div>
+								</div>
+							</li>
+							<li class="item-pro-general flexbox">
+								<div class="image relative">
+									<a href="#"><img src="images/img-tour-moi-02.jpg" alt=""></a>
+									<div class="label-latest">
+										<span class="arrow-bg">Mới</span>
+									</div>
+								</div>
+								<div class="box-ct-general box-ct-general-column">
+									<div class="group-sub-tt">
+										<h3 class="sub-tt-general"><a href="#">tour phú quốc</a></h3>
+										<p class="date">2 ngày 3 đêm</p>
+									</div>
+									<div class="info-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur pariatur ab saepe non veritatis quidem dolore eligendi dicta doloribus esse voluptatem cupiditate quis</div>
+									<div class="box-number box-number-center flexbox">
+										<a class="phone" href="tel:0932 531 446"><span class="fa fa-phone"></span>0932 531 446</a>
+									</div>
+								</div>
+							</li>
+							<li class="item-pro-general flexbox">
+								<div class="image relative">
+									<a href="#"><img src="images/img-tour-moi-03.jpg" alt=""></a>
+									<div class="label-latest">
+										<span class="arrow-bg">Mới</span>
+									</div>
+								</div>
+								<div class="box-ct-general box-ct-general-column">
+									<div class="group-sub-tt">
+										<h3 class="sub-tt-general"><a href="#">tour phú quốc</a></h3>
+										<p class="date">2 ngày 3 đêm</p>
+									</div>
+									<div class="info-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur pariatur ab saepe non veritatis quidem dolore eligendi dicta doloribus esse voluptatem cupiditate quis</div>
+									<div class="box-number box-number-center flexbox">
+										<a class="phone" href="tel:0932 531 446"><span class="fa fa-phone"></span>0932 531 446</a>
+									</div>
+								</div>
+							</li>
+							<li class="item-pro-general flexbox">
+								<div class="image relative">
+									<a href="#"><img src="images/img-tour-moi-04.jpg" alt=""></a>
+									<div class="label-latest">
+										<span class="arrow-bg">Mới</span>
+									</div>
+								</div>
+								<div class="box-ct-general box-ct-general-column">
+									<div class="group-sub-tt">
+										<h3 class="sub-tt-general"><a href="#">tour phú quốc</a></h3>
+										<p class="date">2 ngày 3 đêm</p>
+									</div>
+									<div class="info-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur pariatur ab saepe non veritatis quidem dolore eligendi dicta doloribus esse voluptatem cupiditate quis</div>
+									<div class="box-number box-number-center flexbox">
+										<a class="phone" href="tel:0932 531 446"><span class="fa fa-phone"></span>0932 531 446</a>
+									</div>
+								</div>
+							</li>
+							<li class="item-pro-general flexbox">
+								<div class="image relative">
+									<a href="#"><img src="images/img-tour-moi-01.jpg" alt=""></a>
+									<div class="label-latest">
+										<span class="arrow-bg">Mới</span>
+									</div>
+								</div>
+								<div class="box-ct-general box-ct-general-column">
+									<div class="group-sub-tt">
+										<h3 class="sub-tt-general"><a href="#">tour phú quốc</a></h3>
+										<p class="date">2 ngày 3 đêm</p>
+									</div>
+									<div class="info-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur pariatur ab saepe non veritatis quidem dolore eligendi dicta doloribus esse voluptatem cupiditate quis</div>
+									<div class="box-number box-number-center flexbox">
+										<a class="phone" href="tel:0932 531 446"><span class="fa fa-phone"></span>0932 531 446</a>
+									</div>
+								</div>
+							</li>
+							<li class="item-pro-general flexbox">
+								<div class="image relative">
+									<a href="#"><img src="images/img-tour-moi-02.jpg" alt=""></a>
+									<div class="label-latest">
+										<span class="arrow-bg">Mới</span>
+									</div>
+								</div>
+								<div class="box-ct-general box-ct-general-column">
+									<div class="group-sub-tt">
+										<h3 class="sub-tt-general"><a href="#">tour phú quốc</a></h3>
+										<p class="date">2 ngày 3 đêm</p>
+									</div>
+									<div class="info-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur pariatur ab saepe non veritatis quidem dolore eligendi dicta doloribus esse voluptatem cupiditate quis</div>
+									<div class="box-number box-number-center flexbox">
+										<a class="phone" href="tel:0932 531 446"><span class="fa fa-phone"></span>0932 531 446</a>
+									</div>
+								</div>
+							</li>
+							<li class="item-pro-general flexbox">
+								<div class="image relative">
+									<a href="#"><img src="images/img-tour-moi-03.jpg" alt=""></a>
+									<div class="label-latest">
+										<span class="arrow-bg">Mới</span>
+									</div>
+								</div>
+								<div class="box-ct-general box-ct-general-column">
+									<div class="group-sub-tt">
+										<h3 class="sub-tt-general"><a href="#">tour phú quốc</a></h3>
+										<p class="date">2 ngày 3 đêm</p>
+									</div>
+									<div class="info-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur pariatur ab saepe non veritatis quidem dolore eligendi dicta doloribus esse voluptatem cupiditate quis</div>
+									<div class="box-number box-number-center flexbox">
+										<a class="phone" href="tel:0932 531 446"><span class="fa fa-phone"></span>0932 531 446</a>
+									</div>
+								</div>
+							</li>
+							<li class="item-pro-general flexbox">
+								<div class="image relative">
+									<a href="#"><img src="images/img-tour-moi-04.jpg" alt=""></a>
+									<div class="label-latest">
+										<span class="arrow-bg">Mới</span>
+									</div>
+								</div>
+								<div class="box-ct-general box-ct-general-column">
+									<div class="group-sub-tt">
+										<h3 class="sub-tt-general"><a href="#">tour phú quốc</a></h3>
+										<p class="date">2 ngày 3 đêm</p>
+									</div>
+									<div class="info-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur pariatur ab saepe non veritatis quidem dolore eligendi dicta doloribus esse voluptatem cupiditate quis</div>
+									<div class="box-number box-number-center flexbox">
+										<a class="phone" href="tel:0932 531 446"><span class="fa fa-phone"></span>0932 531 446</a>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+			</div><!--end slider-tour-latest-->
+				
+		</section><!--end tour-latest-->
+
+		<section class="wrap-section box-general box-about">
+			<div class="wrap-title flexbox justify-content-center">
+				<h2 class="title">
+					<span class="title-name"><var class="color-orange">Giới</var> thiệu</span>
+				</h2>
+			</div><!--end wrap title-->
+
+			<div class="wrap-about flexbox flex-column">
+				<div class="bg-left-about">
+					<div class="container">
+						<div class="row">
+							<div class="left-about">
+								<h2 class="title-about">
+									Giới thiệu tổng quan
+								</h2>
+								<p class="text-about">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur pariatur ab saepe non veritatis quidem dolore eligendi dicta doloribus esse voluptatem cupiditate quisquam, velit quaerat doloremque eius, qui eaque!
+								</p>
+								<p class="text-about">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur pariatur ab saepe non veritatis quidem dolore eligendi dicta doloribus esse voluptatem cupiditate quisquam, velit quaerat doloremque eius, qui eaque!
+								</p>
+								<p class="text-about">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur pariatur ab saepe non veritatis quidem dolore eligendi dicta doloribus esse voluptatem cupiditate quisquam, velit quaerat doloremque eius, qui eaque!
+								</p>
+							</div><!--end left-about-->
+						</div>
+					</div>
+				</div>
+				<div class="bg-right-about">
+					<div class="container">
+						<div class="row">
+							<div class="right-about">
+								<div class="slider-about flexbox">
+									<ul class="list-slider-about">
+										<li class="item-about">
+											<div class="pic-avatar">
+												<img src="images/avatar-pho.png" alt="">
+											</div>
+											<div class="info-personal">
+												<h2 class="name">Ông HUỲNH HỮU PHỐ</h2>
+												<p class="position">Phó giám đốc</p>
+												<div class="group-info flexbox flex-column">
+													<div class="item flexbox align-items-center">
+														<span class="fa fa-envelope"></span>
+														<span class="email">huynhhuupho@suntourphuquoc.com</span>
+													</div>
+													<div class="item flexbox align-items-center">
+														<span class="fa fa-phone"></span>
+														<span class="phone">0932 531 446</span>
+													</div>
+												</div>
+												<p class="des-slogan">Khi bạn không biết giải quyết những phương án lựa chọn cho một chuyến hành trình tour, hãy nhấc máy lên và gọi cho chúng tôi ngay SUNTOURPHUQUOC sẻ đồng hành cùng các bạn</p>
+												<div class="group-signature flexbox flex-column justify-content-end">
+													<div class="wrap-signature">
+														<img src="images/signature.png" alt="">
+													</div>
+													<p class="name-signature">Huỳnh Hữu Phố</p>
+												</div>
+											</div>
+										</li>
+										<li class="item-about">
+											<div class="pic-avatar">
+												<img src="images/avatar-phu.png" alt="">
+											</div>
+											<div class="info-personal">
+												<h2 class="name">Ông NGUYỄN KHƯƠNG VĨNH PHÚ</h2>
+												<p class="position">Giám đốc</p>
+												<div class="group-info flexbox flex-column">
+													<div class="item flexbox align-items-center">
+														<span class="fa fa-envelope"></span>
+														<span class="email">nguyenkhuongvinhphu@suntourphuquoc.com</span>
+													</div>
+													<div class="item flexbox align-items-center">
+														<span class="fa fa-phone"></span>
+														<span class="phone">0939 144 114</span>
+													</div>
+												</div>
+												<p class="des-slogan">Khi bạn không biết giải quyết những phương án lựa chọn cho một chuyến hành trình tour, hãy nhấc máy lên và gọi cho chúng tôi ngay SUNTOURPHUQUOC sẻ đồng hành cùng các bạn</p>
+												<div class="group-signature flexbox flex-column justify-content-end">
+													<div class="wrap-signature">
+														<img src="images/signature.png" alt="">
+													</div>
+													<p class="name-signature">Nguyễn Khương Vĩnh Phú</p>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div><!--end right-about-->
+						</div>
+					</div>
+				</div>
+				
+			</div><!--end wrap-about-->
+
+		</section><!--end about us-->
+
+		<section class="wrap-section box-tour-hot">
+			<div class="wrap-title flexbox justify-content-center">
+				<h2 class="title">
+					<span class="title-name"><var class="color-orange">Tour</var> hot</span>
+				</h2>
+			</div><!--end wrap title-->
+			
+			<div class="wrap-tour-hot flexbox">
+				<div class="container">
+					<div class="row">
+						<div class="wrap-col-tour-hot flexbox">
+							<div class="col-tour-hot col-left-tour-hot">
+								<ul class="list-pro-general flexbox">
+									<li class="item-pro-general flexbox">
+										<div class="image">
+											<a href="#"><img src="images/img-tour-hot-01.jpg" alt=""></a>
+										</div>
+										<div class="box-ct-general box-ct-general-column">
+											<div class="group-sub-tt">
+												<h3 class="sub-tt-general"><a href="#">tour phú quốc</a></h3>
+												<p class="date">2 ngày 3 đêm</p>
+											</div>
+											<div class="info-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur pariatur ab saepe non veritatis quidem dolore eligendi dicta doloribus esse voluptatem cupiditate quis</div>
+											<div class="box-number box-number-center flexbox">
+												<a class="phone" href="tel:0932 531 446"><span class="fa fa-phone"></span>0932 531 446</a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div><!--end col-left-tour-hot-->
+							<div class="col-tour-hot col-right-tour-hot">
+								<ul class="list-pro-general flexbox">
+									<li class="item-pro-general flexbox">
+										<div class="image">
+											<a href="#"><img src="images/img-tour-hot-02.jpg" alt=""></a>
+										</div>
+										<div class="box-ct-general box-ct-general-column">
+											<div class="group-sub-tt">
+												<h3 class="sub-tt-general"><a href="#">tour phú quốc</a></h3>
+												<p class="date">2 ngày 3 đêm</p>
+											</div>
+											<div class="info-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur pariatur ab saepe non veritatis quidem dolore eligendi dicta doloribus esse voluptatem cupiditate quis</div>
+											<div class="box-number box-number-center flexbox">
+												<a class="phone" href="tel:0932 531 446"><span class="fa fa-phone"></span>0932 531 446</a>
+											</div>
+										</div>
+									</li>
+									<li class="item-pro-general flexbox">
+										<div class="image">
+											<a href="#"><img src="images/img-tour-hot-03.jpg" alt=""></a>
+										</div>
+										<div class="box-ct-general box-ct-general-column">
+											<div class="group-sub-tt">
+												<h3 class="sub-tt-general"><a href="#">tour phú quốc</a></h3>
+												<p class="date">2 ngày 3 đêm</p>
+											</div>
+											<div class="info-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur pariatur ab saepe non veritatis quidem dolore eligendi dicta doloribus esse voluptatem cupiditate quis</div>
+											<div class="box-number box-number-center flexbox">
+												<a class="phone" href="tel:0932 531 446"><span class="fa fa-phone"></span>0932 531 446</a>
+											</div>
+										</div>
+									</li>
+									<li class="item-pro-general flexbox">
+										<div class="image">
+											<a href="#"><img src="images/img-tour-hot-04.jpg" alt=""></a>
+										</div>
+										<div class="box-ct-general box-ct-general-column">
+											<div class="group-sub-tt">
+												<h3 class="sub-tt-general"><a href="#">tour phú quốc</a></h3>
+												<p class="date">2 ngày 3 đêm</p>
+											</div>
+											<div class="info-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur pariatur ab saepe non veritatis quidem dolore eligendi dicta doloribus esse voluptatem cupiditate quis</div>
+											<div class="box-number box-number-center flexbox">
+												<a class="phone" href="tel:0932 531 446"><span class="fa fa-phone"></span>0932 531 446</a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div><!--end col-right-tour-hot-->
+						</div><!--end wrap-col-tour-hot-->
+					</div>
+				</div>
+			</div><!--end wrap-tour-hot-->
+
+		</section><!--end box-tour-hot-->
+
+		<section class="wrap-section box-tabs-tour">
+			<div class="wrap-tabs-title">
+				<div class="container">
+					<div class="row">
+						<ul class="tabs-tour flexbox">
+							<li class="tab-link-tour current" data-tab="tab-tour-packed">Tour trọn gói</li>
+							<li class="tab-link-tour line">|</li>
+							<li class="tab-link-tour" data-tab="tab-tour-private">Tour riêng</li>
+						</ul>	
+					</div>
+				</div>			
+			</div>
+			<div class="wrap-tabs-content">
+				<div class="container">
+					<div class="row">
+						<div id="tab-tour-packed" class="tab-content current">
+							<ul class="list-pro-general flexbox">
+								<li class="item-pro-general flexbox">
+									<div class="image">
+										<a href="#"><img src="images/img-tour-trongoi-01.jpg" alt=""></a>
+									</div>
+									<div class="box-ct-general box-ct-general-row">
+										<div class="group-sub-tt">
+											<h3 class="sub-tt-general"><a href="#">tour trọn gói 1</a></h3>
+										</div>
+										<div class="info-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur pariatur ab saepe non veritatis quidem dolore eligendi dicta doloribus esse voluptatem cupiditate quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur pariatur ab saepe non veritatis quidem dolore eligendi dicta doloribus esse voluptatem cupiditate quis</div>
+										<div class="box-view-more flexbox">
+											<a class="view-more" href="#"><span>Xem thêm</span></a>
+										</div>
+									</div>
+								</li>
+								<li class="item-pro-general flexbox">
+									<div class="image">
+										<a href="#"><img src="images/img-tour-trongoi-02.jpg" alt=""></a>
+									</div>
+									<div class="box-ct-general box-ct-general-row">
+										<div class="group-sub-tt">
+											<h3 class="sub-tt-general"><a href="#">tour trọn gói 2</a></h3>
+										</div>
+										<div class="info-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur pariatur ab saepe non veritatis quidem dolore eligendi dicta doloribus esse voluptatem cupiditate quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur pariatur ab saepe non veritatis quidem dolore eligendi dicta doloribus esse voluptatem cupiditate quis</div>
+										<div class="box-view-more flexbox">
+											<a class="view-more" href="#"><span>Xem thêm</span></a>
+										</div>
+									</div>
+								</li>
+								<li class="item-pro-general flexbox">
+									<div class="image">
+										<a href="#"><img src="images/img-tour-trongoi-03.jpg" alt=""></a>
+									</div>
+									<div class="box-ct-general box-ct-general-row">
+										<div class="group-sub-tt">
+											<h3 class="sub-tt-general"><a href="#">tour phú quốc</a></h3>
+										</div>
+										<div class="info-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur pariatur ab saepe non veritatis quidem dolore eligendi dicta doloribus esse voluptatem cupiditate quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur pariatur ab saepe non veritatis quidem dolore eligendi dicta doloribus esse voluptatem cupiditate quis</div>
+										<div class="box-view-more flexbox">
+											<a class="view-more" href="#"><span>Xem thêm</span></a>
+										</div>
+									</div>
+								</li>
+								<li class="item-pro-general flexbox">
+									<div class="image">
+										<a href="#"><img src="images/img-tour-trongoi-04.jpg" alt=""></a>
+									</div>
+									<div class="box-ct-general box-ct-general-row">
+										<div class="group-sub-tt">
+											<h3 class="sub-tt-general"><a href="#">tour phú quốc</a></h3>
+										</div>
+										<div class="info-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur pariatur ab saepe non veritatis quidem dolore eligendi dicta doloribus esse voluptatem cupiditate quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur pariatur ab saepe non veritatis quidem dolore eligendi dicta doloribus esse voluptatem cupiditate quis</div>
+										<div class="box-view-more flexbox">
+											<a class="view-more" href="#"><span>Xem thêm</span></a>
+										</div>
+									</div>
+								</li>
+								
+							</ul>
+						</div>
+						<div id="tab-tour-private" class="tab-content">
+							<ul class="list-pro-general flexbox">
+								<li class="item-pro-general flexbox">
+									<div class="image">
+										<a href="#"><img src="images/img-tour-rieng-01.jpg" alt=""></a>
+									</div>
+									<div class="box-ct-general box-ct-general-row">
+										<div class="group-sub-tt">
+											<h3 class="sub-tt-general"><a href="#">Tour riêng 1</a></h3>
+										</div>
+										<div class="info-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur pariatur ab saepe non veritatis quidem dolore eligendi dicta doloribus esse voluptatem cupiditate quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur pariatur ab saepe non veritatis quidem dolore eligendi dicta doloribus esse voluptatem cupiditate quis</div>
+										<div class="box-view-more flexbox">
+											<a class="view-more" href="#"><span>Xem thêm</span></a>
+										</div>
+									</div>
+								</li>
+								<li class="item-pro-general flexbox">
+									<div class="image">
+										<a href="#"><img src="images/img-tour-rieng-02.jpg" alt=""></a>
+									</div>
+									<div class="box-ct-general box-ct-general-row">
+										<div class="group-sub-tt">
+											<h3 class="sub-tt-general"><a href="#">Tour riêng 2</a></h3>
+										</div>
+										<div class="info-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur pariatur ab saepe non veritatis quidem dolore eligendi dicta doloribus esse voluptatem cupiditate quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur pariatur ab saepe non veritatis quidem dolore eligendi dicta doloribus esse voluptatem cupiditate quis</div>
+										<div class="box-view-more flexbox">
+											<a class="view-more" href="#"><span>Xem thêm</span></a>
+										</div>
+									</div>
+								</li>
+								<li class="item-pro-general flexbox">
+									<div class="image">
+										<a href="#"><img src="images/img-tour-rieng-03.jpg" alt=""></a>
+									</div>
+									<div class="box-ct-general box-ct-general-row">
+										<div class="group-sub-tt">
+											<h3 class="sub-tt-general"><a href="#">Tour riêng 3</a></h3>
+										</div>
+										<div class="info-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur pariatur ab saepe non veritatis quidem dolore eligendi dicta doloribus esse voluptatem cupiditate quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur pariatur ab saepe non veritatis quidem dolore eligendi dicta doloribus esse voluptatem cupiditate quis</div>
+										<div class="box-view-more flexbox">
+											<a class="view-more" href="#"><span>Xem thêm</span></a>
+										</div>
+									</div>
+								</li>
+								<li class="item-pro-general flexbox">
+									<div class="image">
+										<a href="#"><img src="images/img-tour-rieng-04.jpg" alt=""></a>
+									</div>
+									<div class="box-ct-general box-ct-general-row">
+										<div class="group-sub-tt">
+											<h3 class="sub-tt-general"><a href="#">Tour riêng 4</a></h3>
+										</div>
+										<div class="info-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur pariatur ab saepe non veritatis quidem dolore eligendi dicta doloribus esse voluptatem cupiditate quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur pariatur ab saepe non veritatis quidem dolore eligendi dicta doloribus esse voluptatem cupiditate quis</div>
+										<div class="box-view-more flexbox">
+											<a class="view-more" href="#"><span>Xem thêm</span></a>
+										</div>
+									</div>
+								</li>	
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div><!--end wrap-tabs-content-->
+			
+		</section><!--end box-tabs-tour-->
+		
+		<section class="wrap-section box-services">
+			<div class="container">
+				<div class="row">
+					<div class="wrap-services flexbox">
+						<div class="col-services col-left-services">
+							<div class="wrap-title flexbox justify-content-center">
+								<h2 class="title">
+									<span class="title-name"><var class="color-orange">Dịch</var> vụ</span>
+								</h2>
+							</div><!--end wrap title-->
+							<div class="box-info-services">
+								<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas amet molestiae natus, quas corporis at voluptate nostrum voluptatem, iusto hic eveniet dolorum assumenda provident laboriosam, nemo accusamus sit. Quisquam, perspiciatis?</p>
+								<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas amet molestiae natus, quas corporis at voluptate nostrum voluptatem, iusto hic eveniet dolorum assumenda provident laboriosam, nemo accusamus sit. Quisquam, perspiciatis?</p>
+							</div>
+						</div><!--col-left-serices-->
+						<div class="col-services col-right-services">
+							<div class="box-slide-serivices">
+								<ul class="list-tour-latest list-pro-general">
+									<li class="item-pro-general flexbox">
+										<div class="image relative">
+											<a href="#"><img src="images/img-dichvu-01.jpg" alt=""></a>
+										</div>
+										<div class="box-ct-general box-ct-general-column">
+											<div class="group-sub-tt">
+												<h3 class="sub-tt-general"><a href="#">Dịch vụ 1</a></h3>
+											</div>
+											<div class="info-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur pariatur ab saepe non veritatis quidem dolore eligendi dicta doloribus esse voluptatem cupiditate quis</div>
+											<div class="box-view-more flexbox">
+												<a class="view-more view-more-orange" href="#"><span>Xem thêm</span></a>
+											</div>
+										</div>
+									</li>
+									<li class="item-pro-general flexbox">
+										<div class="image relative">
+											<a href="#"><img src="images/img-dichvu-02.jpg" alt=""></a>
+										</div>
+										<div class="box-ct-general box-ct-general-column">
+											<div class="group-sub-tt">
+												<h3 class="sub-tt-general"><a href="#">Dịch vụ 2</a></h3>
+											</div>
+											<div class="info-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur pariatur ab saepe non veritatis quidem dolore eligendi dicta doloribus esse voluptatem cupiditate quis</div>
+											<div class="box-view-more flexbox">
+												<a class="view-more view-more-orange" href="#"><span>Xem thêm</span></a>
+											</div>
+										</div>
+									</li>
+									<li class="item-pro-general flexbox">
+										<div class="image relative">
+											<a href="#"><img src="images/img-dichvu-03.jpg" alt=""></a>
+										</div>
+										<div class="box-ct-general box-ct-general-column">
+											<div class="group-sub-tt">
+												<h3 class="sub-tt-general"><a href="#">Dịch vụ 3</a></h3>
+											</div>
+											<div class="info-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur pariatur ab saepe non veritatis quidem dolore eligendi dicta doloribus esse voluptatem cupiditate quis</div>
+											<div class="box-view-more flexbox">
+												<a class="view-more view-more-orange" href="#"><span>Xem thêm</span></a>
+											</div>
+										</div>
+									</li>
+									<li class="item-pro-general flexbox">
+										<div class="image relative">
+											<a href="#"><img src="images/img-dichvu-01.jpg" alt=""></a>
+										</div>
+										<div class="box-ct-general box-ct-general-column">
+											<div class="group-sub-tt">
+												<h3 class="sub-tt-general"><a href="#">Dịch vụ 1</a></h3>
+											</div>
+											<div class="info-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur pariatur ab saepe non veritatis quidem dolore eligendi dicta doloribus esse voluptatem cupiditate quis</div>
+											<div class="box-view-more flexbox">
+												<a class="view-more view-more-orange" href="#"><span>Xem thêm</span></a>
+											</div>
+										</div>
+									</li>
+									<li class="item-pro-general flexbox">
+										<div class="image relative">
+											<a href="#"><img src="images/img-dichvu-02.jpg" alt=""></a>
+										</div>
+										<div class="box-ct-general box-ct-general-column">
+											<div class="group-sub-tt">
+												<h3 class="sub-tt-general"><a href="#">Dịch vụ 2</a></h3>
+											</div>
+											<div class="info-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur pariatur ab saepe non veritatis quidem dolore eligendi dicta doloribus esse voluptatem cupiditate quis</div>
+											<div class="box-view-more flexbox">
+												<a class="view-more view-more-orange" href="#"><span>Xem thêm</span></a>
+											</div>
+										</div>
+									</li>
+									<li class="item-pro-general flexbox">
+										<div class="image relative">
+											<a href="#"><img src="images/img-dichvu-03.jpg" alt=""></a>
+										</div>
+										<div class="box-ct-general box-ct-general-column">
+											<div class="group-sub-tt">
+												<h3 class="sub-tt-general"><a href="#">Dịch vụ 3</a></h3>
+											</div>
+											<div class="info-des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur pariatur ab saepe non veritatis quidem dolore eligendi dicta doloribus esse voluptatem cupiditate quis</div>
+											<div class="box-view-more flexbox">
+												<a class="view-more view-more-orange" href="#"><span>Xem thêm</span></a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div><!--end box-slide-serivices-->
+						</div><!--col-right-serices-->
+					</div><!--end wrap-services-->
+				</div>
+			</div>
+		</section><!--end box-service-->
+			
+		<section class="wrap-section box-contact">
+			<div class="wrap-title flexbox justify-content-center">
+				<h2 class="title">
+					<span class="title-name"><var class="color-orange">Liên</var> hệ</span>
+				</h2>
+			</div><!--end wrap title-->
+			<div class="box-bg-contact">
+				<div class="sec-overflow">
+					<div class="container">
+						<div class="row">
+							<div class="wrap-contact-sec">
+								<div class="wraper-col-contact flexbox">
+									<div class="col-contact col-left-contact">
+										<h3 class="title-company">
+										Cty TNHH MTV Dịch Vụ Du Lịch Hoàng Hôn Phú Quốc</h3>
+										<p class="group-info-footer flexbox">
+											<span class="icon circle-phone flexbox">
+												<i class="fa fa-phone flexbox"></i>
+											</span>
+											<span class="text-info"><a href="tel:0925.757.545">0925.757.545</a></span>
+										</p>
+										<p class="group-info-footer flexbox">
+											<span class="icon circle-phone flexbox"><i class="fa fa-phone flexbox"></i></span>
+											<span class="text-info"><a href="tel:0925.757.545">0925.757.545</a></span>
+										</p>
+										<p class="group-info-footer flexbox">
+											<span class="icon email flexbox"><i class="fa fa-envelope"></i></span>
+											<span class="text-info">atamua@gmail.com</span>
+										</p>
+										<p class="group-info-footer flexbox">
+											<span class="icon facebook flexbox"><i class="fa fa-facebook-square"></i></span>
+											<span class="text-info"><a href="https://www.facebook.com/atamua.net/" target="blank">Facebook.com/atamua.net</a></span>
+										</p>
+										<p class="group-info-footer flexbox">
+											<span class="icon facebook flexbox"><i class="fa fa-map-marker"></i></span>
+											<span class="text-info">61 Tân Chánh Hiệp 03, phường Tân Chánh Hiệp, quận 12 </span>
+										</p>
+									</div>
+								</div><!--end wraper-col-contact-->
+								<div class="wrap-contact-form">
+									<form action="" id="contact-form" class="contact-form">
+										<div class="form-group">
+											<label>Tên của bạn</label>
+											<input type="text">
+										</div>
+										<div class="form-group">
+											<label>Địa chỉ Email</label>
+											<input type="text">
+										</div>
+										<div class="form-group">
+											<label>Tiêu đề</label>
+											<input type="text">
+										</div>
+										<div class="form-group">
+											<label>Nội dung</label>
+											<textarea cols="30" rows="7"></textarea>
+										</div>
+										<div class="form-group">
+											<button class="submit-form" type="submit">Gửi đi</button>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section><!--end box-contact-->
+
+		<section class="wrap-section box-footer">
+			<p>Copyright © 2018 Designed by huynh trong dai. All right reserved</p>
+		</section><!--end footer-->
+	</div>
+</body>
+</html>
