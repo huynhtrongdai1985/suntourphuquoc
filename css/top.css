@@ -35,6 +35,7 @@
 }
 .left-about .text-about{
 	color: #6f6f6e;
+	font-size: 13px;
 }
 .left-about .text-about:not(:last-child){
 	margin-bottom: 15px;
