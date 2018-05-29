@@ -116,7 +116,16 @@
 .slide-banner .list-banner .item-banner img.pc{
 	display: none;
 }
-
+/*==NaV===*/
+.list-nav li a {
+	color: #6f6f6e;
+}
+.list-nav li.active a{
+	color: #ef7d00;
+}
+.list-nav li a .icon{
+	margin-right: 5px;
+}
 @media (max-width: 360px){
 	.box-top-header .col span {
 	    font-size: 11px;
@@ -215,15 +224,6 @@
 	}
 	.sub-list-nav .sub-item-nav:last-child{
 		border-bottom: none;
-	}
-	.list-nav li a {
-		color: #6f6f6e;
-	}
-	.list-nav li.active a{
-		color: #ef7d00;
-	}
-	.list-nav li a .icon{
-		margin-right: 5px;
 	}
 	.side-nav .close-sidebar{
 		padding: 0 20px;
