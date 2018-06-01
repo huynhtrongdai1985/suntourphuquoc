@@ -263,4 +263,10 @@ and (orientation : portrait) {
 	.row{
 		padding: 0 10px;
 	}
+	.sp{
+		display: none;
+	}
+	.pc{
+		display: block;
+	}
 }

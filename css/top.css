@@ -357,133 +357,6 @@
 	.wrap-about .item-about .info-personal{
 		flex: 1;
 	}
-
-	/*===Services===*/
-	.wrap-services{
-		flex-direction: row;
-		flex-wrap: wrap;
-	}
-	.col-left-services{
-		width: 35%;
-		margin-right: 5%;
-	}
-	.col-right-services{
-		width: 60%;
-		padding: 30px 50px 0 50px;
-		-webkit-box-sizing: border-box;
-		-moz-box-sizing: border-box;
-		box-sizing: border-box;
-		background-color: #e8eef2;
-	}
-	.wrap-services .item-pro-general  .box-ct-general-column{
-		border: none;
-	}
-	/*Custom arrows*/
-	.slick-prev:before,
-	.slick-next:before{
-		display: inline-block;
-		content: '';
-		width: 16px;
-		height: 16px;
-		border-right: 2px solid #6f6f6e;
-		border-bottom: 2px solid #6f6f6e;
-	}
-	.slick-prev, .slick-next{
-		top: 26%;
-	}
-	.slick-prev{
-		left: -25px;
-	}
-	.slick-next{
-		right: -25px;
-	}
-	.slick-prev:before{
-		transform: rotate(135deg);
-	}
-	.slick-next:before{
-		transform: rotate(-45deg);
-	}
-
-
-	/*===Contact===*/
-	.wrap-contact-sec{
-		display: flex;
-		flex-wrap: wrap;
-	}
-	.wraper-col-contact{
-		width: 58%;
-		margin-right: 5%;
-	}
-	.col-left-contact{
-		width: 100%;
-	}
-	.wrap-contact-form{
-		width: 37%;
-	}
-	.title-company{
-		font-size: 22px;
-		width: 100%;
-	}
-	.group-info-footer .text-info{
-		font-size: 17px;
-		font-weight: lighter;
-	}
-	.wrap-section.box-contact,
-	.wrap-section.box-footer{
-		margin-bottom: 0;
-	}
-	.wrap-section.box-footer{
-		padding: 50px 0 110px 0;
-	}
-	.box-footer p{
-		font-size: 16px;
-	}
-}
-
-
-/*====iPad in portrait & landscape===*/
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px)  {
-
-	.bg-left-about,
-	.bg-right-about{
-		padding: 0 20px;
-	}
-	.col-right-tour-hot .list-pro-general{
-		margin-left: -20px;
-	}
-	.col-right-tour-hot .list-pro-general .item-pro-general{
-		width: calc(100% * 1/2 - 20px);
-		margin-left: 20px;
-	}
-	.title-company{
-		font-size: 16px;
-	}
-	.group-info-footer .text-info{
-		font-size: 13px;
-	}
-
-}
-
-/*====iPad in portrait===*/
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) { 
-	
-}
-
-/*====iPad in landscape===*/
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-
-	.wrap-section {
-	    margin-bottom: 80px;
-	}
-	/*===About===*/
 	.wrap-about {
 		flex-direction: row;
 		flex-wrap: wrap;
@@ -576,4 +449,132 @@ and (orientation : landscape) {
 		align-items: flex-end;
 	}
 
+	/*===Services===*/
+	.wrap-services{
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.col-left-services{
+		width: 35%;
+		margin-right: 5%;
+	}
+	.col-right-services{
+		width: 60%;
+		padding: 30px 50px 0 50px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		background-color: #e8eef2;
+	}
+	.wrap-services .item-pro-general  .box-ct-general-column{
+		border: none;
+	}
+	/*===Custom arrows===*/
+	.slick-prev:before,
+	.slick-next:before{
+		display: inline-block;
+		content: '';
+		width: 16px;
+		height: 16px;
+		border-right: 2px solid #6f6f6e;
+		border-bottom: 2px solid #6f6f6e;
+	}
+	.slick-prev, .slick-next{
+		top: 26%;
+	}
+	.slick-prev{
+		left: -25px;
+	}
+	.slick-next{
+		right: -25px;
+	}
+	.slick-prev:before{
+		transform: rotate(135deg);
+	}
+	.slick-next:before{
+		transform: rotate(-45deg);
+	}
+
+	/*===Contact===*/
+	.wrap-contact-sec{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.wraper-col-contact{
+		width: 58%;
+		margin-right: 5%;
+	}
+	.col-left-contact{
+		width: 100%;
+	}
+	.wrap-contact-form{
+		width: 37%;
+	}
+	.title-company{
+		font-size: 22px;
+		width: 100%;
+	}
+	.group-info-footer .text-info{
+		font-size: 17px;
+		font-weight: lighter;
+	}
+	.wrap-section.box-contact,
+	.wrap-section.box-footer{
+		margin-bottom: 0;
+	}
+	.wrap-section.box-footer{
+		padding: 50px 0 110px 0;
+	}
+	.box-footer p{
+		font-size: 16px;
+	}
+
+	.wrap-section {
+	    margin-bottom: 80px;
+	}
+
+}
+
+
+/*====iPad in portrait & landscape===*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+
+	.bg-left-about,
+	.bg-right-about{
+		padding: 0 20px;
+	}
+	.col-right-tour-hot .list-pro-general{
+		margin-left: -20px;
+	}
+	.col-right-tour-hot .list-pro-general .item-pro-general{
+		width: calc(100% * 1/2 - 20px);
+		margin-left: 20px;
+	}
+	.title-company{
+		font-size: 16px;
+	}
+	.group-info-footer .text-info{
+		font-size: 13px;
+	}
+
+}
+
+/*====iPad in portrait===*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+	
+}
+
+/*====iPad in landscape===*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+	.wrap-section {
+	    margin-bottom: 80px;
+	}
 }
