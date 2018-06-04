@@ -213,11 +213,15 @@
 	}
 	.side-nav .list-nav li .title-toggle-nav.active{
 		border-bottom: 1px solid #d5d5d5;
+		background-color: #ef7d05;
+		color: #fff;
 	}
 	.side-nav .list-nav li .title-toggle-nav.active .icon-nav-arrow{
 	    transform: rotate(-135deg);
 	    -webkit-transform: rotate(-135deg);
 	    -ms-transform: rotate(-135deg);
+	    border-right: 1px solid rgba(255,255,255,1);
+	    border-bottom: 1px solid rgba(255,255,255,1);
 	}
 	.sub-list-nav .sub-item-nav{
 		padding-left: 10px;
@@ -274,6 +278,9 @@
 }
 
 @media (min-width: 750px){
+	.navigation .wrap-nav .logo img{
+		width: 110px;
+	}
 	.slide-banner .list-banner .item-banner img.sp{
 		display: none;
 	}

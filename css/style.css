@@ -123,7 +123,13 @@ img {
 	width: calc(100% * (1/5) - 30px);
 }
 .box-ct-general .info-des{
-	font-size: 13px;
+	font-size: 14px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 4;
 	color: #6f6f6e;
 	margin-bottom: 15px;
 }
@@ -151,6 +157,7 @@ img {
 	border: 1px solid #ef7d05;
 	color: #ef7d05;
 	border-radius: 30px;
+	font-size: 18px;
 	padding: 6px 10px;
 	box-sizing: border-box;
 }
@@ -253,6 +260,9 @@ img {
 	}
 	.pc{
 		display: block;
+	}
+	.box-ct-general .info-des{
+		font-size: 15px;
 	}
 	
 }

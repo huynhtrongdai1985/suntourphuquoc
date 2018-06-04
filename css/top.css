@@ -35,7 +35,7 @@
 }
 .left-about .text-about{
 	color: #6f6f6e;
-	font-size: 13px;
+	font-size: 14px;
 }
 .left-about .text-about:not(:last-child){
 	margin-bottom: 15px;
@@ -45,7 +45,7 @@
 }
 .list-slider-about .item-about .info-personal{
 	color: #6f6f6e;
-	font-size: 13px;
+	font-size: 14px;
 }
 .list-slider-about .item-about .info-personal .name{
 	font-size: 18px;
@@ -192,7 +192,7 @@
 }
 .box-info-services .text{
 	color: #6f6f6e;
-	font-size: 13px;
+	font-size: 14px;
 }
 .box-info-services .text:not(:last-child){
 	margin-bottom: 15px;
@@ -238,7 +238,7 @@
 }
 .group-info-footer  .text-info{
 	color: #fff;
-	font-size: 12px;
+	font-size: 13px;
 }
 .contact-form .form-group{
 	display: flex;
@@ -377,9 +377,11 @@
 		font-size: 30px;
 	}
 	.list-slider-about .item-about .info-personal{
-		font-size: 16px;
+		font-size: 15px;
 	}
-
+	.left-about .text-about{
+		font-size: 15px;
+	}
 	/*===Tour===*/
 	.wrap-col-tour-hot{
 		flex-direction: row;
@@ -448,7 +450,9 @@
 		flex: 1;
 		align-items: flex-end;
 	}
-
+	.tabs-tour .tab-link-tour{
+		font-size: 30px;
+	}
 	/*===Services===*/
 	.wrap-services{
 		flex-direction: row;
@@ -468,6 +472,9 @@
 	}
 	.wrap-services .item-pro-general  .box-ct-general-column{
 		border: none;
+	}
+	.box-info-services .text{
+		font-size: 15px;
 	}
 	/*===Custom arrows===*/
 	.slick-prev:before,
