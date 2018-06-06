@@ -266,6 +266,20 @@ img {
 	}
 	
 }
+
+/*====iPad in portrait & landscape===*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+	.sp{
+		display: none;
+	}
+	.pc{
+		display: block;
+	}
+}
+
+/*====iPad in portrait===*/
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
@@ -273,10 +287,17 @@ and (orientation : portrait) {
 	.row{
 		padding: 0 10px;
 	}
-	.sp{
-		display: none;
+	.box-ct-general{
+		padding-left: 0;
 	}
-	.pc{
-		display: block;
+}
+
+/*====iPad in landscape===*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+	.row{
+		padding: 0 15px;
 	}
 }

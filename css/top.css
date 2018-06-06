@@ -548,16 +548,31 @@
 and (min-device-width : 768px) 
 and (max-device-width : 1024px)  {
 
-	.bg-left-about,
-	.bg-right-about{
-		padding: 0 20px;
+	.wrap-about {
+	    flex-wrap: nowrap;
 	}
-	.col-right-tour-hot .list-pro-general{
-		margin-left: -20px;
+	.bg-left-about, .bg-right-about {
+	    padding: 0 5px;
 	}
-	.col-right-tour-hot .list-pro-general .item-pro-general{
-		width: calc(100% * 1/2 - 20px);
-		margin-left: 20px;
+	.wrap-about .left-about{
+		padding: 20px 0;
+	}
+	.wrap-about .right-about {
+	    padding-right: 0;
+	}
+	.left-about, 
+	.right-about{
+		padding: 20px 0;
+	}
+	.wrap-about .item-about .pic-avatar {
+	    width: auto;
+	    margin-right: 0;
+	    display: flex;
+	    justify-content: center;
+	    margin-bottom: 15px;
+	}
+	.slick-dotted.slick-slider{
+		margin-bottom: 35px;
 	}
 	.title-company{
 		font-size: 16px;
@@ -565,7 +580,12 @@ and (max-device-width : 1024px)  {
 	.group-info-footer .text-info{
 		font-size: 13px;
 	}
-
+	.wraper-col-contact {
+	    width: 50%;
+	}
+	.wrap-contact-form {
+	    width: 45%;
+	}
 }
 
 /*====iPad in portrait===*/
@@ -573,7 +593,23 @@ and (max-device-width : 1024px)  {
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : portrait) { 
-	
+	.box-tabs-tour .list-pro-general .item-pro-general{
+		flex-direction: column;
+	}
+	.box-tabs-tour .list-pro-general .item-pro-general .image{
+		margin-bottom: 10px;
+	}
+	.box-tabs-tour .list-pro-general .item-pro-general .image,
+	.wrap-tabs-content .list-pro-general .item-pro-general .box-ct-general{
+		width: auto;
+	}
+	.wrap-col-tour-hot .col-tour-hot{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.col-left-tour-hot{
+		margin-right: 0;
+	}
 }
 
 /*====iPad in landscape===*/
@@ -583,5 +619,17 @@ and (max-device-width : 1024px)
 and (orientation : landscape) {
 	.wrap-section {
 	    margin-bottom: 80px;
+	}
+	.col-right-tour-hot .list-pro-general .item-pro-general{
+		width: auto;
+	}
+	.box-ct-general .info-des{
+		-webkit-line-clamp: 2;
+	}
+	.col-right-tour-hot .list-pro-general .item-pro-general .image{
+		width: 200px;
+	}
+	.col-right-services{
+		padding-bottom: 30px;
 	}
 }
