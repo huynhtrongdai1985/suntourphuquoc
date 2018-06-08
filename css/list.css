@@ -1,31 +1,4 @@
 
-.banner-list{
-	background: url(../images/banner-list.jpg) no-repeat center center;
-    background-size: contain;
-    width: 100%;
-    height: 100%;
-}
-.wrapp-breadcrumb{
-	padding: 13px 0;
-}
-.wrapp-breadcrumb .page-title-list{
-	color: #fff;
-	text-transform: uppercase;
-	margin-bottom: 10px;
-}
-.wrapp-breadcrumb .breadcrumb{
-	margin-left: -10px;
-}
-.wrapp-breadcrumb .breadcrumb li{
-	margin-left: 10px;
-	color: #fff;
-}
-.wrapp-breadcrumb .breadcrumb li span{
-	font-size: 10px;
-}
-.wrapp-breadcrumb .breadcrumb li.active a{
-	color: #fad600;
-}
 .list-product-list .item-pro-general{
 	flex-direction: column;
 	width: 100%;
@@ -66,16 +39,6 @@
     background-color: #ef7d00 !important;
 }
 @media(min-width: 750px){
-	
-	.wrapp-breadcrumb{
-		padding: 130px 0;
-	}
-	.wrapp-breadcrumb .breadcrumb{
-		margin-left: -15px;
-	}
-	.wrapp-breadcrumb .breadcrumb li{
-		margin-left: 15px;
-	}
 	.list-product-list{
 		margin-left: -20px;
 	}

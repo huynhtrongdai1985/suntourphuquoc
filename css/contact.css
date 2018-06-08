@@ -1,0 +1,22 @@
+.box-contact-page .box-bg-contact{
+	background: none;
+}
+.box-contact-page .sec-overflow{
+	padding: 50px 0;
+	background-color: transparent;
+}
+.box-contact-page .title-company{
+	color: #ef7d00;
+	border-color: #d5d5d5;
+}
+.box-contact-page .group-info-footer .text-info,
+.box-contact-page .group-info-footer .text-info a{
+	color: #000;
+}
+.box-contact-page .contact-form .form-group label{
+	color: #000;
+}
+.box-contact-page .contact-form .form-group input,
+.box-contact-page .contact-form .form-group textarea{
+	border-color: #d5d5d5;
+}

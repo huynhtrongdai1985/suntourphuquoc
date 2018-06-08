@@ -53,4 +53,7 @@
 	.list-product-detail .item-pro-general .box-ct-general{
 		padding-left: 0
 	}
+	.wrap-title .title .title-name{
+		font-size: 35px;
+	}
 }

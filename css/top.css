@@ -11,79 +11,6 @@
 	bottom: -10px;
 }
 
-/*===About us====*/
-.bg-left-about{
-	background-color: #e9eff2;	
-}
-.bg-right-about{
-	background-color: #f1f5f6;	
-}
-.left-about,
-.right-about{
-	padding: 30px 0;
-}
-.right-about {
-	padding-bottom: 0;
-}
-.left-about .title-about{
-	font-size: 22px;
-	font-weight: normal;
-	margin-bottom: 25px;
-	color: #575756;
-	text-transform: uppercase;
-	line-height: 1;
-}
-.left-about .text-about{
-	color: #6f6f6e;
-	font-size: 14px;
-}
-.left-about .text-about:not(:last-child){
-	margin-bottom: 15px;
-}
-.list-slider-about{
-	width: 100%;
-}
-.list-slider-about .item-about .info-personal{
-	color: #6f6f6e;
-	font-size: 14px;
-}
-.list-slider-about .item-about .info-personal .name{
-	font-size: 18px;
-	font-weight: normal;
-	color: #575756;
-	margin-bottom: 5px;
-	line-height: 1;
-}
-.list-slider-about .item-about .info-personal .position{
-	margin-bottom: 15px;
-}
-.list-slider-about .item-about .info-personal .group-info,
-.list-slider-about .item-about .info-personal .des-slogan{
-	margin-bottom: 20px;
-}
-.list-slider-about .item-about .info-personal .group-info .item:not(:last-child){
-	margin-bottom: 5px;
-}	
-.list-slider-about .item-about .info-personal .group-info .item .fa{
-	color: #4ca7de;
-	margin-right: 5px;
-}
-.list-slider-about .item-about .info-personal .group-signature{
-	float: right
-}
-.list-slider-about .item-about .info-personal .group-signature .wrap-signature{
-	display: flex;
-	justify-content: center;
-}
-.list-slider-about .item-about .info-personal .name-signature{
-	text-transform: uppercase;
-}
-.list-slider-about .slick-dots{
-	right: 15px;
-	bottom: -35px;
-	width: auto;
-}
-
 .list-tour-latest .item-pro-general .relative{
 	position: relative;
 }
@@ -198,97 +125,12 @@
 	margin-bottom: 15px;
 }
 
-/*===Contact===*/
-.box-bg-contact{
-	background: url(../images/bg-contact.jpg) no-repeat center center;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    margin-bottom: 0;
-}
-.sec-overflow{
-	padding: 20px 0;
-    box-sizing: border-box;
-    background-color: rgba(15, 62, 104, 0.8);
-}
-.title-company{
-	font-size: 13px;
-    color: #fff;
-    text-transform: uppercase;
-    border-bottom: 1px solid #fff;
-    padding-bottom: 10px;
-    margin-bottom: 25px;
-}
-.wraper-col-contact{
-	margin-bottom: 30px;
-}
-.col-contact .group-info-footer{
-	align-items: center;
-	margin-bottom: 10px;
-}
-.group-info-footer .icon{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-right: 10px;
-	border-radius: 50%;
-	width: 25px;
-	height: 25px;
-	background-color: #fad600;
-}
-.group-info-footer  .text-info{
-	color: #fff;
-	font-size: 13px;
-}
-.contact-form .form-group{
-	display: flex;
-	flex-direction: column;
-	margin-bottom: 20px;
-}
-.contact-form .form-group label{
-	color: #fff;
-	margin-bottom: 10px;
-}
-.contact-form .form-group input{
-	height: 34px;
-	padding: 0 15px;
-	box-sizing: border-box;
-	background-color: transparent;
-	border: 2px solid rgba(218, 215, 215, 0.5);
-	outline: none;
-	color: #fff;
-}
-.contact-form .form-group textarea{
-	background-color: transparent;
-	border: 2px solid rgba(218, 215, 215, 0.5);
-	margin-bottom: 20px;
-	outline: none;
-	color: #fff;
-	padding: 10px 20px;
-	font-size: 15px;
-}
-.contact-form .submit-form{
-	width: 150px;
-	background-color: #fad600;
-	border: none;
-	text-transform: uppercase;
-	padding: 10px 15px;
-	box-sizing: border-box;
-	width: 120px;
-	font-size: 16px;
-}
 @media (max-width: 360px){
 	.tabs-tour .tab-link-tour{
 		font-size: 18px;
 	}
 }
-@media (max-width: 767px){
-	.list-slider-about .item-about .pic-avatar{
-		margin-bottom: 20px;
-		display: flex;
-		justify-content: center;
-	}
-}
+
 /*===For PC===*/
 @media (min-width: 750px){
 	.slick-dots li button:before{
@@ -324,51 +166,7 @@
 	.slick-dots{
 		bottom: -45px;
 	}
-	.wrap-title .title{
-		background-size: 400px;
-		padding-bottom: 35px;
-	}
-	.wrap-title .title .title-name{
-		font-size: 40px;
-	}
-
-	/*===About===*/
-	.wrap-about .item-about{
-		display: flex;
-		flex-wrap: wrap;
-	}
-	.wrap-about .item-about .pic-avatar{
-		width: 150px;
-		margin-right: 15px;
-	}
-	.wrap-about .item-about .info-personal{
-		flex: 1;
-	}
-	.wrap-about {
-		flex-direction: row;
-		flex-wrap: wrap;
-	}
-	.wrap-about > div{
-		width: 50%;
-	}
-	.wrap-about .left-about{
-		padding-left: 30%;
-	}
-	.wrap-about .right-about{
-		padding-right: 30%;
-	}
-	.left-about, .right-about {
-	    padding: 50px;
-	}
-	.left-about .title-about{
-		font-size: 30px;
-	}
-	.list-slider-about .item-about .info-personal{
-		font-size: 15px;
-	}
-	.left-about .text-about{
-		font-size: 15px;
-	}
+	
 	/*===Tour===*/
 	.wrap-col-tour-hot{
 		flex-direction: row;
@@ -499,45 +297,6 @@
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px)  {
-
-	.wrap-about {
-	    flex-wrap: nowrap;
-	}
-	.bg-left-about, .bg-right-about {
-	    padding: 0 5px;
-	}
-	.wrap-about .left-about{
-		padding: 20px 0;
-	}
-	.wrap-about .right-about {
-	    padding-right: 0;
-	}
-	.left-about, 
-	.right-about{
-		padding: 20px 0;
-	}
-	.wrap-about .item-about .pic-avatar {
-	    width: auto;
-	    margin-right: 0;
-	    display: flex;
-	    justify-content: center;
-	    margin-bottom: 15px;
-	}
-	.slick-dotted.slick-slider{
-		margin-bottom: 35px;
-	}
-	.title-company{
-		font-size: 16px;
-	}
-	.group-info-footer .text-info{
-		font-size: 13px;
-	}
-	.wraper-col-contact {
-	    width: 50%;
-	}
-	.wrap-contact-form {
-	    width: 45%;
-	}
 }
 
 /*====iPad in portrait===*/
