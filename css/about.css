@@ -90,7 +90,7 @@
 	}
 	.wrap-about .item-about .pic-avatar{
 		width: 150px;
-		margin-right: 15px;
+		margin: 0 0 15px;
 	}
 	.wrap-about .item-about .info-personal{
 		flex: 1;
