@@ -1,11 +1,12 @@
+
 .banner-list{
 	background: url(../images/banner-list.jpg) no-repeat center center;
-    background-size: cover;
+    background-size: contain;
     width: 100%;
     height: 100%;
 }
 .wrapp-breadcrumb{
-	padding: 130px 0;
+	padding: 13px 0;
 }
 .wrapp-breadcrumb .page-title-list{
 	color: #fff;
@@ -13,10 +14,10 @@
 	margin-bottom: 10px;
 }
 .wrapp-breadcrumb .breadcrumb{
-	margin-left: -15px;
+	margin-left: -10px;
 }
 .wrapp-breadcrumb .breadcrumb li{
-	margin-left: 15px;
+	margin-left: 10px;
 	color: #fff;
 }
 .wrapp-breadcrumb .breadcrumb li span{
@@ -24,4 +25,76 @@
 }
 .wrapp-breadcrumb .breadcrumb li.active a{
 	color: #fad600;
+}
+.list-product-list .item-pro-general{
+	flex-direction: column;
+	width: 100%;
+	margin: 0 0 20px 0;
+}
+.wrap-paging .page-numbers{
+	display: flex;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+    margin: 10px 10px 20px;
+}
+.wrap-paging .page-numbers li {
+    text-align: center;
+    line-height: 1;
+    flex: 1 1 auto;
+    -webkit-flex: 1 1 auto;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+.wrap-paging .page-numbers li a, 
+.wrap-paging .page-numbers li span {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    padding: 7px 0;
+    width: 100%;
+}
+.wrap-paging .page-numbers li a {
+    background-color: #9d9c9c !important;
+}
+.wrap-paging .page-numbers li a:hover, 
+.wrap-paging .page-numbers li span.current {
+    background-color: #ef7d00 !important;
+}
+@media(min-width: 750px){
+	
+	.wrapp-breadcrumb{
+		padding: 130px 0;
+	}
+	.wrapp-breadcrumb .breadcrumb{
+		margin-left: -15px;
+	}
+	.wrapp-breadcrumb .breadcrumb li{
+		margin-left: 15px;
+	}
+	.list-product-list{
+		margin-left: -20px;
+	}
+	.list-product-list .item-pro-general{
+		width: calc(100% * (1/4) - 20px);
+		margin: 0 0 20px 20px;
+	}
+	.wrap-paging .page-numbers {
+	    justify-content: flex-end;
+	    -webkit-justify-content: flex-end;
+	    margin: 20px 0;
+	}
+	.wrap-paging .page-numbers li {
+	    flex: 0 0 auto;
+	    -webkit-flex: 0 0 auto;
+	    margin-left: 10px;
+	}
+	.wrap-paging .page-numbers li a, 
+	.wrap-paging .page-numbers li span {
+	    padding: 7px 12px;
+	}
 }
